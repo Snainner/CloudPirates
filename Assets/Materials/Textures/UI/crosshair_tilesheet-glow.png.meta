@@ -1,0 +1,4719 @@
+fileFormatVersion: 2
+guid: 80c5a58a69080b940ba85affdb5fd7c9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826c7c9d904e14048975e01a60f3dc83
+      internalID: 247486871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6779ac48ac8db194099fb6aaad4553e5
+      internalID: -1230276482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73279577b54505f4ca1bae38f11cd9c2
+      internalID: 938041171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9bd38e18bf398428cfe69faea2c442
+      internalID: 2045059706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24698afb114d1e945ac55b3be3490794
+      internalID: 1476884188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_6
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3806839b765d05544ae1830d7008372d
+      internalID: -1307489133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_7
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f16e8aaf95967f4697a6880bda0ad7b
+      internalID: -1366761765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_8
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faba18bb5cffd04580d2202c5fe0ec9
+      internalID: -1897298151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_9
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488fa94f8a509984394e6d0cbb3e1a23
+      internalID: -2049559352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_10
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0149998500b438641a598485da110ac0
+      internalID: -1163513264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_11
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f280c2c2fe57f645a7ffe6f273502b7
+      internalID: 1052836968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_12
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b71a9740625fc342a93bfe79c021789
+      internalID: 1879510281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_13
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ce50053a205584696b0dad10536a89
+      internalID: -295697702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_14
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326d702441a395644b7e911e0fb619e3
+      internalID: -1881052585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_15
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194749d2e1c362f43b4d0606638d5127
+      internalID: -1110578446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_16
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138ef63263a349b43b81f7c636a0da9b
+      internalID: 824647983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_18
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728b5ef6c8d0ab94eb6a53f62e20298c
+      internalID: -296349613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_19
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ef1844cf9cb6546ae586aee1f4a228
+      internalID: 1625671179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17c5bac108c5534d986eb2e087a2ea3
+      internalID: 1652284322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f1566d7f8f3b64aabd9b87b5b3e85f
+      internalID: -443802069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2456dd6da18ae647befe31105af41bf
+      internalID: 294604189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d11aef3ba488994abe238cd7c20184c
+      internalID: 1357642370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b1110722698f24cb8eef96c23ab12c
+      internalID: 1827731993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_25
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651377394791e2f48a6f48893a18efbb
+      internalID: 463320481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_26
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7edc10487cbb64aa685e80e2472e56
+      internalID: -1308940666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_27
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c9c0f0611b4204eab1edfa9b322b77
+      internalID: 1328897532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_28
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7d4829f11ddc64abee7fffe35798fd
+      internalID: -1044662732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_29
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8dc213b440bff499b694d442d6532f
+      internalID: 1921408436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_30
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5f72cbb943bde438c3f0201301ea32
+      internalID: 1802256695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_31
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ae37a3474e0c74f8937a5c061a228a
+      internalID: 801546804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_32
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d23d648f4d91e444bf6b152c202e89f
+      internalID: 1019100127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_33
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c8cda72042c584989255a384dfa7c2
+      internalID: 903736414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_34
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00542a0856675d40a39500a733bee78
+      internalID: 602298889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_35
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380f6cc334bdbc743b21fb3b9510f3ae
+      internalID: 671585954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_36
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaf5439ac36edf4095c6198a52d89c7
+      internalID: -124202307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_37
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35417fdc28163634996f44b7b1a4ac42
+      internalID: -1020194925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_38
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c0ded99aea5814ab876bb649bce332
+      internalID: 540899098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_39
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 597
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127a8269b550db94c8f8f0b85c38e980
+      internalID: 1715409167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f01d69033a847444961309388d961dc
+      internalID: -1004484491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_41
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d409cf49f4dadb94f974d4c6a9110918
+      internalID: 780623783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_42
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec325e37d64b3b44086f2cbe96324d00
+      internalID: -1476020422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_43
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e957e80e534c7ee4f9216a5ff0046662
+      internalID: -2033487385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_44
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39da22b1c5ae05e40b59a3f6e4fe194a
+      internalID: 603619293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_45
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095674d0620b7f74cabbf1b4e0872914
+      internalID: 1401061412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_46
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c6880ce9bc710439d24e8c0b6ec2d6
+      internalID: 22307899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_47
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a88b53dd3297245819571e51975c98
+      internalID: 1077234751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_48
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afefb2d503acfe48a22651b064b4832
+      internalID: -1875274305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_49
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6565f3a76f056944f8abb531110a882b
+      internalID: 1987483594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_50
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106d473917ee2264785d37490b583f65
+      internalID: 1421170687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_51
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8401441f07d91864b89133f88cc5d660
+      internalID: 1350423455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_52
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cc287eb9781fe42af6a4d23deb14c2
+      internalID: -1375440036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_53
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7496e970aacb416428263eb1dc7913dd
+      internalID: -1648078402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_54
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90573e9776db33c49a961d04e5139b5a
+      internalID: 1220607801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_55
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e44a5a315b99154ea9ebe3cfb538586
+      internalID: 1588130413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_56
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b53442b047a9fb4eb5afc45014c07d5
+      internalID: -885496600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_57
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5305d2abea533434cb8b4ed3069ff4ab
+      internalID: 130593923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_58
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408face287151754a8971a3c8351ca37
+      internalID: 2081097574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_59
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 523
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16fb24e19902a54e81f1e6b5d9299dd
+      internalID: 2107145150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2abbf63eb7b6e4a930e4c3b4a45ae5
+      internalID: -1179393365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd697392d7894444a76c263342a391e
+      internalID: -1907248498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_62
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3967d1deb96d3459b062bee178a7f6
+      internalID: -654479238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_63
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2365a39ada3027d4cb26dd52caca0120
+      internalID: 1663700535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_64
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161c9684f8012ef409f65b9a9f4e10e4
+      internalID: -2041047013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_65
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45adcaa45cf26a45b25498214198811
+      internalID: 1035841827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_66
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3809dcf4a010404408d66d0c3b5e73c5
+      internalID: 891864710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_67
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569db1a6f53c1334d9fabd8b16abc3d8
+      internalID: -1711947554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_68
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db9c7326a55e41479e7d045f029c0d3
+      internalID: -2041401850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_69
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ca9b275158a2442be89eaab91d24cb
+      internalID: -1521169911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_70
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48119b4a96fc5134ca6baea9ee2e4f9e
+      internalID: -721827713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_71
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba17bb2f4f814f94696a42f754b9bc18
+      internalID: 1192090544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_72
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faec29f6cdf0a54aaff51652f5a3c44
+      internalID: 1330910819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_73
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e628d7b0097200740867a23dd1ecbf15
+      internalID: 1306272619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_74
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1767decc5ea5ee344ae768c76d0898d9
+      internalID: -2059105926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_75
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9431e5eef1c6046bab500c530b6d53
+      internalID: 2134038125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_76
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6d5c269e428994f94a15d2d3a06b16
+      internalID: 185405671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_77
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b503441ebbf244692ca9b15fff4128
+      internalID: -2034197758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_78
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7e275d94d0a7b46ad2d8a547de480c
+      internalID: 1261316454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_79
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 449
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758b23f5d416d6a458de080a999652c0
+      internalID: 1860540662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_80
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5d29ae902ae824d82fefbab058ebd9
+      internalID: 1655956743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_81
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b90de2404bfc174abe1d60ef5e7f7d9
+      internalID: -1759792018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_82
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3133999469e6f71419cd5dcb177ba721
+      internalID: -656474819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_83
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d027578245bdfc34cb4a6d2d5deee946
+      internalID: 184378484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_84
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4b45e4fc4ae1648ab12d7bc3fe8626
+      internalID: 864993587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_85
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf631ab7ec53904390fd3b9813982bb
+      internalID: 264219879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_86
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a80c9c35f9153469e1503c2c4c8268
+      internalID: -2052398110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_87
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7d8c303b410bb4dbb5b401923080fc
+      internalID: 441334011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_88
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e76d615e80bfe8409f0ea760942c96e
+      internalID: -441852172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_89
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ae636175a73714787f931b9a7b1209
+      internalID: 1511767556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_90
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c528d994e9885e498205d1e650851d6
+      internalID: 360236900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_91
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e8c6e47d30beb4fa696a281d8de368
+      internalID: -700712631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_92
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3a01e450b8cd3488777d21721b6106
+      internalID: -1980017445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_93
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d82173ee2c8eca468c8c4a193ba3923
+      internalID: -881349404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_94
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0ffe2e0b1bd1e4cb3baa835bdab8c7
+      internalID: -366308958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_95
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8080213e7d3e0644a7ef31d95c3fb3e
+      internalID: 1679284314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_96
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02779d2359cc3d40805826e0cd86e13
+      internalID: 1456980476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_97
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd895f2195eb3a45b6519856acbf3d0
+      internalID: -38212625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_98
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931394e2416bef84395225f6f30b3815
+      internalID: -504253207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_99
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 375
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490c36ba923e0ff42b76742b06272f9d
+      internalID: 160476255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_100
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155d77a8313f91042b8ba48a444d6a40
+      internalID: -1453497872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_101
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f420c97a27be494fb00ac4277e908e5
+      internalID: 599408343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_102
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8396952a8b459af48b4b0c3fe4161cda
+      internalID: 1903754806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_103
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cd37115eb178341ac7a7ca933c0c58
+      internalID: -1675857044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_104
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab01e5b46554a5940889937b942a35a3
+      internalID: 1994231821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_105
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc65dd1de7e710429ef2e853ec95be0
+      internalID: 1546503385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_106
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93330282466b2ff4b8809ebacf6833d9
+      internalID: -825247310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_107
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44123236c2efc614a88ce24aae227e41
+      internalID: -1209758304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_108
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23b144e401afb04593dfdefeb08c979
+      internalID: 1421563277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_109
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4cb761c40565847b72e07f7d2a1b6a
+      internalID: 872368833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_110
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2145cbfc98be6ec4dadf72e34da92863
+      internalID: 1668881398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_111
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d355d1da220bb47b5abe2d292cc028
+      internalID: 146980431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_112
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3b49785e1d048428c1095a16ca915b
+      internalID: 1746906686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_113
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fc0f2cb77216c4686b349d8e40bad9
+      internalID: -1134003762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_114
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52d320f9ee4b754e90ab75cf73de209
+      internalID: 1499017417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_115
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94382ee070ed76447b792fe92c80d43e
+      internalID: -965266853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_116
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8a4a22084b06e49bd5333a9f835330
+      internalID: 48613159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_117
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1319ea8a44c0ba24c8dc328bb3f314ef
+      internalID: 1123838702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_118
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496ea92667e252c44bcf5fa5cbb96a41
+      internalID: -1804820902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_119
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 301
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808fa8898c08ef54ca253821c2e37684
+      internalID: -1816665808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_120
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2102000de2954849be245de1d65051e
+      internalID: 1098746838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c779fedbb29b9428fe828645d8c99d
+      internalID: -1067997508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_122
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a727dc98b998c4daef9c26661a558e
+      internalID: 1667230745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_123
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec60ba9159199374895349a89bc9c2c2
+      internalID: -1107851478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_124
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b16d53ca3f90fe418fcb4b64b61ec8a
+      internalID: 184021615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_125
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd06348d8c990b743ad680d0d076fd38
+      internalID: 425561867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_126
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2ccc59f9eac39409f494c02969eeed
+      internalID: 281058394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_127
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c0a29609c6a0748a73cfb11d326afe
+      internalID: 2000337317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_128
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6359ddaf7fe24494eb05a46a1aac39b4
+      internalID: -409955282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_129
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc043cd53f59fc4fb940b95147bb1eb
+      internalID: -1179310713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_130
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efdfbbab12db0d4c8621d90369e1a42
+      internalID: -1218551908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_131
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c58860f01172d49aae8cd17861570b
+      internalID: 671323620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_132
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c3ab0fc982a134d8544d584aecdb27
+      internalID: 1009736386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_133
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137cc01e056baa74dae4497c1626393b
+      internalID: -580064779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_134
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ff6a11d7f9ec044bdc887d5e9f9c05
+      internalID: 2061741773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_135
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958af6cbc3ecf6849b7025f30be3bacf
+      internalID: -802340196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_136
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d51e37bc599ad44ae87713092c5565
+      internalID: -668001751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_137
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4e5f8f7a8842546a165faab4e78b7f
+      internalID: 1306384902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_138
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b207668f6df774bb03a272d4636bd6
+      internalID: 171271292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_139
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 227
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aca1e2ce00c53b4a8156b2961911875
+      internalID: 544447103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_140
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4731cb42854a64f85df2ba28e105af
+      internalID: -432219839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_141
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd84605f09a9d64b9d75dcfd096ab5b
+      internalID: 75689024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_142
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d1a4d0e67c2384a837dc81fad5fc65
+      internalID: 2135262402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_143
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f2e823160638647a33a65715e27e72
+      internalID: -335552547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_144
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66c1137e05e0714d859acfff45d2926
+      internalID: 1728256638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_145
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5718a2a7aeca70c4782f7d37b4a0d03f
+      internalID: -2085537613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_146
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d24b51c4b23334a951f2b912cd0f4d
+      internalID: -1090331648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_147
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f23494284186949b14f51444a5206b
+      internalID: 1839379790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_148
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cab23a48d552a4f997bc438a07ba6e
+      internalID: 459943936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_149
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6d818df5c94a744ab326c6bca51480
+      internalID: 841876332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_150
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e304dbe842d52e448ff335b3728c7f8
+      internalID: 2024387269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_151
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8427df0e6f1b441a2ce508ba0a224d
+      internalID: -1644887842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_152
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ca2aee9eb9b1a4faf8348bff004004
+      internalID: 901733111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_153
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a68be9604cd48748adffe279e46b879
+      internalID: -146389143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_154
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c4061f1996cc04eb5838539d99c00c
+      internalID: -1683455556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_155
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befaf9488456e3141ab7b0937e097161
+      internalID: 1837605877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_156
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cd2dfcc0f87e44fbd985434ca4fc51
+      internalID: 101703133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_157
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa73af18bdd0774cb83c06be31cc63d
+      internalID: 963397328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_158
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265228fbbab6b9344a44bf161f869a84
+      internalID: -629366636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_159
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 153
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646b8f8fc5227f94ba2ba2229b4776d2
+      internalID: -1139875788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_160
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f443976c20133044a5dd73dd94315e9
+      internalID: 615230564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_161
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf989b2d452aac478d6ac6ae5fe5f83
+      internalID: 717119411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_162
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f705e9000c62b46a39b5f70dbf4410
+      internalID: 941296330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_163
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d4716f5906e134197c85cc86b540cd
+      internalID: 1501631767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_164
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9a3cd8268c68041809d3a103827934
+      internalID: 708529876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_165
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ef210b0f3f8f64c9e7bb11a94b6aca
+      internalID: -2083034588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_166
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38dc971e12802674da3c51d7b9adc1dc
+      internalID: -1090820964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6c37cef821d604ebc9d9f3a3b79374
+      internalID: -484581939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_168
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c4292ecd69f4e44897045b79409c0c
+      internalID: -1616228018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_169
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0bc13f8bfbc3145a8c7c76e0d6f79f
+      internalID: -330509030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_170
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8420dbb4d8d7794f9fcca9b19d2df39
+      internalID: -1803920548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_171
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06044ed02b91304a9257097f251b2b1
+      internalID: 150775067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_172
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b4a80bf6fa51d43bed96a7c120512f
+      internalID: -1228025662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_173
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f2db2bd1b97f74ebe6bba3d1e7d3c7
+      internalID: -1847515116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_174
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6ee28d9e719664fae6d34849778fb8
+      internalID: 2023873709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_175
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66df55bd1fa82f841b3d5666fa45a035
+      internalID: -1585262507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_176
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf266cbf08595742acfe00b8dcf23ce
+      internalID: -1353686411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_177
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92243b48b5676643b0310c4b4063889
+      internalID: 636942554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_178
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9afb9b591ae19459dab8143d18629a
+      internalID: 37519505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_179
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 79
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc40e432e8b5aa647ad65d37effeba4f
+      internalID: -1383614761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_180
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4cc7a0dbcbb814cbaa60e33fb87f16
+      internalID: 807873193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_181
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1e1e029ea390742b30194beb219774
+      internalID: 1042426865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_182
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6afde9a22babbf4883a91edf9bae291
+      internalID: -1213001890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_183
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0f201e2b72b154eafccafe0be22413
+      internalID: 739627468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_184
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2973725d8501b4aba4adcfdd36c8de
+      internalID: 402161480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_185
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da2069410a90574ab512416500aaf9b
+      internalID: 225943418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_186
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5974d59fd5fd2341835746a08630f55
+      internalID: 374579272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_187
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c25e25acf74aa3498f8c16a4e44a81f
+      internalID: 2110595898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_188
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c270a9000289eb0478463967947be623
+      internalID: -1203744474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_189
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a6c1d430b0b924cb69a85e4aa67837
+      internalID: -701464612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_190
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17d62a7773285543ac6c7325e5a0a6b
+      internalID: 490412131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_191
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67a5382ba7dedd4aac6ee71209fd1a3
+      internalID: -2134054588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_192
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdca10ef64f820b408236763edb2b89c
+      internalID: 2061871647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_193
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d48bec46d064f4ba15b8a47ea65b62
+      internalID: -845043315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_194
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081f7a599155fad4abf6dc4bffca2ed8
+      internalID: -1196395636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_195
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32be74427cc4444882543b82963dba2
+      internalID: 931537683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_196
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bf160d367152e40ab52bbac16ad1ed
+      internalID: 1795722388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_197
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784f2ea9f8a2925448416c6c04b97174
+      internalID: 617512192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_198
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefde9cb59d665f47b88b8460612f62c
+      internalID: 2044575642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_199
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 5
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c5c7ae0706f1f4c94eb149af692d74
+      internalID: -305502376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f496b73708a6764aa0bc6a13a73b326
+      internalID: -385276131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tilesheet-glow_17
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 671
+        width: 74
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d557e305788205846a6c1e4c8f1eef24
+      internalID: -274488896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 586bd75d7db973543abbc22d91293855
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":20.0,"y":10.0},"gridSpriteSize":{"x":74.0,"y":74.0},"gridSpriteOffset":{"x":5.0,"y":5.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":1,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      crosshair_tilesheet-glow_0: 247486871
+      crosshair_tilesheet-glow_1: -1230276482
+      crosshair_tilesheet-glow_10: -1163513264
+      crosshair_tilesheet-glow_100: -1453497872
+      crosshair_tilesheet-glow_101: 599408343
+      crosshair_tilesheet-glow_102: 1903754806
+      crosshair_tilesheet-glow_103: -1675857044
+      crosshair_tilesheet-glow_104: 1994231821
+      crosshair_tilesheet-glow_105: 1546503385
+      crosshair_tilesheet-glow_106: -825247310
+      crosshair_tilesheet-glow_107: -1209758304
+      crosshair_tilesheet-glow_108: 1421563277
+      crosshair_tilesheet-glow_109: 872368833
+      crosshair_tilesheet-glow_11: 1052836968
+      crosshair_tilesheet-glow_110: 1668881398
+      crosshair_tilesheet-glow_111: 146980431
+      crosshair_tilesheet-glow_112: 1746906686
+      crosshair_tilesheet-glow_113: -1134003762
+      crosshair_tilesheet-glow_114: 1499017417
+      crosshair_tilesheet-glow_115: -965266853
+      crosshair_tilesheet-glow_116: 48613159
+      crosshair_tilesheet-glow_117: 1123838702
+      crosshair_tilesheet-glow_118: -1804820902
+      crosshair_tilesheet-glow_119: -1816665808
+      crosshair_tilesheet-glow_12: 1879510281
+      crosshair_tilesheet-glow_120: 1098746838
+      crosshair_tilesheet-glow_121: -1067997508
+      crosshair_tilesheet-glow_122: 1667230745
+      crosshair_tilesheet-glow_123: -1107851478
+      crosshair_tilesheet-glow_124: 184021615
+      crosshair_tilesheet-glow_125: 425561867
+      crosshair_tilesheet-glow_126: 281058394
+      crosshair_tilesheet-glow_127: 2000337317
+      crosshair_tilesheet-glow_128: -409955282
+      crosshair_tilesheet-glow_129: -1179310713
+      crosshair_tilesheet-glow_13: -295697702
+      crosshair_tilesheet-glow_130: -1218551908
+      crosshair_tilesheet-glow_131: 671323620
+      crosshair_tilesheet-glow_132: 1009736386
+      crosshair_tilesheet-glow_133: -580064779
+      crosshair_tilesheet-glow_134: 2061741773
+      crosshair_tilesheet-glow_135: -802340196
+      crosshair_tilesheet-glow_136: -668001751
+      crosshair_tilesheet-glow_137: 1306384902
+      crosshair_tilesheet-glow_138: 171271292
+      crosshair_tilesheet-glow_139: 544447103
+      crosshair_tilesheet-glow_14: -1881052585
+      crosshair_tilesheet-glow_140: -432219839
+      crosshair_tilesheet-glow_141: 75689024
+      crosshair_tilesheet-glow_142: 2135262402
+      crosshair_tilesheet-glow_143: -335552547
+      crosshair_tilesheet-glow_144: 1728256638
+      crosshair_tilesheet-glow_145: -2085537613
+      crosshair_tilesheet-glow_146: -1090331648
+      crosshair_tilesheet-glow_147: 1839379790
+      crosshair_tilesheet-glow_148: 459943936
+      crosshair_tilesheet-glow_149: 841876332
+      crosshair_tilesheet-glow_15: -1110578446
+      crosshair_tilesheet-glow_150: 2024387269
+      crosshair_tilesheet-glow_151: -1644887842
+      crosshair_tilesheet-glow_152: 901733111
+      crosshair_tilesheet-glow_153: -146389143
+      crosshair_tilesheet-glow_154: -1683455556
+      crosshair_tilesheet-glow_155: 1837605877
+      crosshair_tilesheet-glow_156: 101703133
+      crosshair_tilesheet-glow_157: 963397328
+      crosshair_tilesheet-glow_158: -629366636
+      crosshair_tilesheet-glow_159: -1139875788
+      crosshair_tilesheet-glow_16: 824647983
+      crosshair_tilesheet-glow_160: 615230564
+      crosshair_tilesheet-glow_161: 717119411
+      crosshair_tilesheet-glow_162: 941296330
+      crosshair_tilesheet-glow_163: 1501631767
+      crosshair_tilesheet-glow_164: 708529876
+      crosshair_tilesheet-glow_165: -2083034588
+      crosshair_tilesheet-glow_166: -1090820964
+      crosshair_tilesheet-glow_167: -484581939
+      crosshair_tilesheet-glow_168: -1616228018
+      crosshair_tilesheet-glow_169: -330509030
+      crosshair_tilesheet-glow_17: -274488896
+      crosshair_tilesheet-glow_170: -1803920548
+      crosshair_tilesheet-glow_171: 150775067
+      crosshair_tilesheet-glow_172: -1228025662
+      crosshair_tilesheet-glow_173: -1847515116
+      crosshair_tilesheet-glow_174: 2023873709
+      crosshair_tilesheet-glow_175: -1585262507
+      crosshair_tilesheet-glow_176: -1353686411
+      crosshair_tilesheet-glow_177: 636942554
+      crosshair_tilesheet-glow_178: 37519505
+      crosshair_tilesheet-glow_179: -1383614761
+      crosshair_tilesheet-glow_18: -296349613
+      crosshair_tilesheet-glow_180: 807873193
+      crosshair_tilesheet-glow_181: 1042426865
+      crosshair_tilesheet-glow_182: -1213001890
+      crosshair_tilesheet-glow_183: 739627468
+      crosshair_tilesheet-glow_184: 402161480
+      crosshair_tilesheet-glow_185: 225943418
+      crosshair_tilesheet-glow_186: 374579272
+      crosshair_tilesheet-glow_187: 2110595898
+      crosshair_tilesheet-glow_188: -1203744474
+      crosshair_tilesheet-glow_189: -701464612
+      crosshair_tilesheet-glow_19: 1625671179
+      crosshair_tilesheet-glow_190: 490412131
+      crosshair_tilesheet-glow_191: -2134054588
+      crosshair_tilesheet-glow_192: 2061871647
+      crosshair_tilesheet-glow_193: -845043315
+      crosshair_tilesheet-glow_194: -1196395636
+      crosshair_tilesheet-glow_195: 931537683
+      crosshair_tilesheet-glow_196: 1795722388
+      crosshair_tilesheet-glow_197: 617512192
+      crosshair_tilesheet-glow_198: 2044575642
+      crosshair_tilesheet-glow_199: -305502376
+      crosshair_tilesheet-glow_2: 938041171
+      crosshair_tilesheet-glow_20: 1652284322
+      crosshair_tilesheet-glow_21: -443802069
+      crosshair_tilesheet-glow_22: 294604189
+      crosshair_tilesheet-glow_23: 1357642370
+      crosshair_tilesheet-glow_24: 1827731993
+      crosshair_tilesheet-glow_25: 463320481
+      crosshair_tilesheet-glow_26: -1308940666
+      crosshair_tilesheet-glow_27: 1328897532
+      crosshair_tilesheet-glow_28: -1044662732
+      crosshair_tilesheet-glow_29: 1921408436
+      crosshair_tilesheet-glow_3: 2045059706
+      crosshair_tilesheet-glow_30: 1802256695
+      crosshair_tilesheet-glow_31: 801546804
+      crosshair_tilesheet-glow_32: 1019100127
+      crosshair_tilesheet-glow_33: 903736414
+      crosshair_tilesheet-glow_34: 602298889
+      crosshair_tilesheet-glow_35: 671585954
+      crosshair_tilesheet-glow_36: -124202307
+      crosshair_tilesheet-glow_37: -1020194925
+      crosshair_tilesheet-glow_38: 540899098
+      crosshair_tilesheet-glow_39: 1715409167
+      crosshair_tilesheet-glow_4: -385276131
+      crosshair_tilesheet-glow_40: -1004484491
+      crosshair_tilesheet-glow_41: 780623783
+      crosshair_tilesheet-glow_42: -1476020422
+      crosshair_tilesheet-glow_43: -2033487385
+      crosshair_tilesheet-glow_44: 603619293
+      crosshair_tilesheet-glow_45: 1401061412
+      crosshair_tilesheet-glow_46: 22307899
+      crosshair_tilesheet-glow_47: 1077234751
+      crosshair_tilesheet-glow_48: -1875274305
+      crosshair_tilesheet-glow_49: 1987483594
+      crosshair_tilesheet-glow_5: 1476884188
+      crosshair_tilesheet-glow_50: 1421170687
+      crosshair_tilesheet-glow_51: 1350423455
+      crosshair_tilesheet-glow_52: -1375440036
+      crosshair_tilesheet-glow_53: -1648078402
+      crosshair_tilesheet-glow_54: 1220607801
+      crosshair_tilesheet-glow_55: 1588130413
+      crosshair_tilesheet-glow_56: -885496600
+      crosshair_tilesheet-glow_57: 130593923
+      crosshair_tilesheet-glow_58: 2081097574
+      crosshair_tilesheet-glow_59: 2107145150
+      crosshair_tilesheet-glow_6: -1307489133
+      crosshair_tilesheet-glow_60: -1179393365
+      crosshair_tilesheet-glow_61: -1907248498
+      crosshair_tilesheet-glow_62: -654479238
+      crosshair_tilesheet-glow_63: 1663700535
+      crosshair_tilesheet-glow_64: -2041047013
+      crosshair_tilesheet-glow_65: 1035841827
+      crosshair_tilesheet-glow_66: 891864710
+      crosshair_tilesheet-glow_67: -1711947554
+      crosshair_tilesheet-glow_68: -2041401850
+      crosshair_tilesheet-glow_69: -1521169911
+      crosshair_tilesheet-glow_7: -1366761765
+      crosshair_tilesheet-glow_70: -721827713
+      crosshair_tilesheet-glow_71: 1192090544
+      crosshair_tilesheet-glow_72: 1330910819
+      crosshair_tilesheet-glow_73: 1306272619
+      crosshair_tilesheet-glow_74: -2059105926
+      crosshair_tilesheet-glow_75: 2134038125
+      crosshair_tilesheet-glow_76: 185405671
+      crosshair_tilesheet-glow_77: -2034197758
+      crosshair_tilesheet-glow_78: 1261316454
+      crosshair_tilesheet-glow_79: 1860540662
+      crosshair_tilesheet-glow_8: -1897298151
+      crosshair_tilesheet-glow_80: 1655956743
+      crosshair_tilesheet-glow_81: -1759792018
+      crosshair_tilesheet-glow_82: -656474819
+      crosshair_tilesheet-glow_83: 184378484
+      crosshair_tilesheet-glow_84: 864993587
+      crosshair_tilesheet-glow_85: 264219879
+      crosshair_tilesheet-glow_86: -2052398110
+      crosshair_tilesheet-glow_87: 441334011
+      crosshair_tilesheet-glow_88: -441852172
+      crosshair_tilesheet-glow_89: 1511767556
+      crosshair_tilesheet-glow_9: -2049559352
+      crosshair_tilesheet-glow_90: 360236900
+      crosshair_tilesheet-glow_91: -700712631
+      crosshair_tilesheet-glow_92: -1980017445
+      crosshair_tilesheet-glow_93: -881349404
+      crosshair_tilesheet-glow_94: -366308958
+      crosshair_tilesheet-glow_95: 1679284314
+      crosshair_tilesheet-glow_96: 1456980476
+      crosshair_tilesheet-glow_97: -38212625
+      crosshair_tilesheet-glow_98: -504253207
+      crosshair_tilesheet-glow_99: 160476255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

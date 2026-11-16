@@ -1,0 +1,1775 @@
+fileFormatVersion: 2
+guid: d47c059d53505134e931efe94e842c72
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1470
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa690b28653ec547a63a20eb1ea183f
+      internalID: -1089244502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1470
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a657d6982c0e98a4ebc3d76c6838b1a0
+      internalID: -931281536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1470
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c281f1f2160a2b743a0f544bf27159b1
+      internalID: 1693834749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1470
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661887b421e59184aaa3a39b928379f2
+      internalID: 1770315079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1470
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba74e622648cd54bac0ebcaceccd6f0
+      internalID: 991929158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1470
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e6ea953fc172747b68b81ec4193977
+      internalID: -207021889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1470
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bac23332b229f46adaabe3e2c8058f
+      internalID: 624185150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1470
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796529042f2d8f34091967aff211fea8
+      internalID: 1115989694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1470
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354f6a06a86830845989e44c48eb32be
+      internalID: -1434620904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe90b98f256a89439082a086eadd737
+      internalID: 1462915311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1260
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcce6485024dbbe42924e7e07a7b0b82
+      internalID: 435773916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1260
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e139e222fd39c44f804ccbb1d1278b3
+      internalID: -1193770057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1260
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8616cdc4af8888f4280a039fde5e1615
+      internalID: 1378601221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1260
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f08d0cbfb973f4188d9756c8132335
+      internalID: -1090053990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1260
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c0c01157a01a548b513f96e99bad17
+      internalID: 1620737067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1260
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2dd35d26cf1884da2f8360c5a46fec
+      internalID: -178574775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1260
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4b5404e3c671a4dab9fbc61de4096a
+      internalID: 54461197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1260
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855570413fe29724ba905ba94621aba0
+      internalID: 1210725552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617ea5f809c4915438fc2289c33998e5
+      internalID: 53020045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1050
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a88c5b29a540d4586c9881f3413bcd
+      internalID: -93469899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1050
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f3947ce62df5b40904b296b3281a44
+      internalID: -1312972482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1050
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff8d6a8379ae754eaf9b553dd67a1b3
+      internalID: -2097115923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1050
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95a7d7765b58e14da73cb32760d7638
+      internalID: -1548638629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1050
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf9f613bcb7559419163beb44cbe3c4
+      internalID: 331591654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1050
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823331aaeedac6f46950fedc9cb94071
+      internalID: -1227169775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1050
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cfb155197a9ac4bafdd23c7753f8f3
+      internalID: -758984752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1050
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e551c182d0022f4db8c4bc27782a7f3
+      internalID: -1283637227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b7c179da8d5464b82b50db00da471b
+      internalID: -688816549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 840
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2831e2ff94f4fef4a81026c250f893d7
+      internalID: 2001746716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 840
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e706b6d9903b5014ab9b55654ae7c7aa
+      internalID: 32837857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 840
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb4d1fd8bcffc9429913da8cd4d1860
+      internalID: 1664360361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 840
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadcc69b6382299468be3330bb90cce1
+      internalID: 363579553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 840
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d027c761f4bd74b9fea37433619bb6
+      internalID: -486838290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 840
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1b4eb52fc9526468f513869857ceb5
+      internalID: -1149087426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 840
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2884e12c3dae8419e1bc922f746134
+      internalID: 1219515823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 840
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa672ea230e7de742a933d6b7029c6d8
+      internalID: 653899332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a496964ef248c74698b639848ac051c
+      internalID: -200041964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 630
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdae0938c76565409509942089fa68e
+      internalID: -217153639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 630
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d653e3b729b30469802e5126299278
+      internalID: 1027528343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 630
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd707f6d5fa72a43851b9876be1126d
+      internalID: -1922660081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 630
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023f193ec6f94ca4dada047b42786f1c
+      internalID: -616746855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 630
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43ed565d6535474a822b8d1b1cf1d44
+      internalID: -305250057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 630
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0087452b3dd88489b67a1070371e88
+      internalID: 1243474681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 630
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4c6427f9d40294da9d4ed38b1bf74f
+      internalID: 1853725677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 630
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab29330f5f66c245b8f5ccc5d8f08a1
+      internalID: -1329197000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb81422e40610c47b5359243fc4f98b
+      internalID: -1002636038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 420
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1db6454ba25e24396eaabd5bb15c23
+      internalID: 1285695317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 420
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd776498acc0804aa86490aba1bf3d8
+      internalID: -1274745817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 420
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17035142939efc740a7da5ac3b7b6d90
+      internalID: 142682935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 420
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a1fd764f69cbe4582fba857e81bdfb
+      internalID: 1268977254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 420
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4899f6c271459424bafbdf8e78aee3c5
+      internalID: -573314053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 420
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4686b0356807d5d489b179838e9fdd1d
+      internalID: 675129506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 420
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a802ac1d7723f148a6eb9123f07fb18
+      internalID: 1992511457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 420
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394174a4b6359b64da28b5ddc8dee4b5
+      internalID: 498098753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8075ce041f41247bc440e1b987f600
+      internalID: 1477660624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_55
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 210
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8239a51f97e0f344583968f7059d3178
+      internalID: -1027412216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_56
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 210
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea634f3f7b29fa741979f9dd42f7464b
+      internalID: 785538536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_57
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 210
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0773480649f707a449adce28596a6758
+      internalID: -449532459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_58
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 210
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce75d25152255a458fce809c327c36f
+      internalID: 1068627682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_59
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 210
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2307c4b861dcd488c3bd90ad0f1ba1
+      internalID: 237737124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 210
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea5633a7e18e9c49aa177af147948d5
+      internalID: -705689427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 210
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b479651f762f2643b0608d723d058af
+      internalID: 845991975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 210
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe00f5677d3fa64db651e53a5130aba
+      internalID: 1367129803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b7ca8e124c26d4aa8d4b882ec37237
+      internalID: 1859063489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_64
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25ff37e728b8a543a1c9af5b4136c7d
+      internalID: -121161139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_65
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0807308daf62fd45af79d41a32da057
+      internalID: 1716713129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_66
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f0147b6677cbe47ae27e944bc4a70c
+      internalID: 942854638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_67
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7891e3d6ee80b147ade135741f3d2bd
+      internalID: -968617200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_68
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49169dd81821cc24b95aa2cdacc7ab26
+      internalID: -1117882024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ed6d0adc149764eabc5cb7da8d533e
+      internalID: 1504701711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_70
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 0
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a40f8405591198488357b3847dcb1ed
+      internalID: 2028912255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit-flame-wisp-sheet_71
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 0
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dcef6bb53594f42b01b95260f0eef4
+      internalID: 872564747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8ebc123d67182824b967bca114836ff3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":8.0},"gridSpriteSize":{"x":172.0,"y":210.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spirit-flame-wisp-sheet_0: -1089244502
+      spirit-flame-wisp-sheet_1: -931281536
+      spirit-flame-wisp-sheet_10: 435773916
+      spirit-flame-wisp-sheet_11: -1193770057
+      spirit-flame-wisp-sheet_12: 1378601221
+      spirit-flame-wisp-sheet_13: -1090053990
+      spirit-flame-wisp-sheet_14: 1620737067
+      spirit-flame-wisp-sheet_15: -178574775
+      spirit-flame-wisp-sheet_16: 54461197
+      spirit-flame-wisp-sheet_17: 1210725552
+      spirit-flame-wisp-sheet_18: 53020045
+      spirit-flame-wisp-sheet_19: -93469899
+      spirit-flame-wisp-sheet_2: 1693834749
+      spirit-flame-wisp-sheet_20: -1312972482
+      spirit-flame-wisp-sheet_21: -2097115923
+      spirit-flame-wisp-sheet_22: -1548638629
+      spirit-flame-wisp-sheet_23: 331591654
+      spirit-flame-wisp-sheet_24: -1227169775
+      spirit-flame-wisp-sheet_25: -758984752
+      spirit-flame-wisp-sheet_26: -1283637227
+      spirit-flame-wisp-sheet_27: -688816549
+      spirit-flame-wisp-sheet_28: 2001746716
+      spirit-flame-wisp-sheet_29: 32837857
+      spirit-flame-wisp-sheet_3: 1770315079
+      spirit-flame-wisp-sheet_30: 1664360361
+      spirit-flame-wisp-sheet_31: 363579553
+      spirit-flame-wisp-sheet_32: -486838290
+      spirit-flame-wisp-sheet_33: -1149087426
+      spirit-flame-wisp-sheet_34: 1219515823
+      spirit-flame-wisp-sheet_35: 653899332
+      spirit-flame-wisp-sheet_36: -200041964
+      spirit-flame-wisp-sheet_37: -217153639
+      spirit-flame-wisp-sheet_38: 1027528343
+      spirit-flame-wisp-sheet_39: -1922660081
+      spirit-flame-wisp-sheet_4: 991929158
+      spirit-flame-wisp-sheet_40: -616746855
+      spirit-flame-wisp-sheet_41: -305250057
+      spirit-flame-wisp-sheet_42: 1243474681
+      spirit-flame-wisp-sheet_43: 1853725677
+      spirit-flame-wisp-sheet_44: -1329197000
+      spirit-flame-wisp-sheet_45: -1002636038
+      spirit-flame-wisp-sheet_46: 1285695317
+      spirit-flame-wisp-sheet_47: -1274745817
+      spirit-flame-wisp-sheet_48: 142682935
+      spirit-flame-wisp-sheet_49: 1268977254
+      spirit-flame-wisp-sheet_5: -207021889
+      spirit-flame-wisp-sheet_50: -573314053
+      spirit-flame-wisp-sheet_51: 675129506
+      spirit-flame-wisp-sheet_52: 1992511457
+      spirit-flame-wisp-sheet_53: 498098753
+      spirit-flame-wisp-sheet_54: 1477660624
+      spirit-flame-wisp-sheet_55: -1027412216
+      spirit-flame-wisp-sheet_56: 785538536
+      spirit-flame-wisp-sheet_57: -449532459
+      spirit-flame-wisp-sheet_58: 1068627682
+      spirit-flame-wisp-sheet_59: 237737124
+      spirit-flame-wisp-sheet_6: 624185150
+      spirit-flame-wisp-sheet_60: -705689427
+      spirit-flame-wisp-sheet_61: 845991975
+      spirit-flame-wisp-sheet_62: 1367129803
+      spirit-flame-wisp-sheet_63: 1859063489
+      spirit-flame-wisp-sheet_64: -121161139
+      spirit-flame-wisp-sheet_65: 1716713129
+      spirit-flame-wisp-sheet_66: 942854638
+      spirit-flame-wisp-sheet_67: -968617200
+      spirit-flame-wisp-sheet_68: -1117882024
+      spirit-flame-wisp-sheet_69: 1504701711
+      spirit-flame-wisp-sheet_7: 1115989694
+      spirit-flame-wisp-sheet_70: 2028912255
+      spirit-flame-wisp-sheet_71: 872564747
+      spirit-flame-wisp-sheet_8: -1434620904
+      spirit-flame-wisp-sheet_9: 1462915311
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

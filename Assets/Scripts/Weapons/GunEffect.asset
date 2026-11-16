@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495254f90230d3f4ba317d3afcf88ef8, type: 3}
+  m_Name: GunEffect
+  m_EditorClassIdentifier: Assembly-CSharp::GunEffects
+  AudioClips:
+  - {fileID: 8300000, guid: 7c33e5b41a388844d83e40a808e8d44b, type: 3}
+  MuzzleFlashPrefab: {fileID: 967898708683262265, guid: feb230d46c6688f4a92b8d23280e3e61, type: 3}
