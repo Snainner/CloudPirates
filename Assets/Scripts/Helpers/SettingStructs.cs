@@ -27,12 +27,14 @@ public struct PlayerSettings
     public Stat Damage;
     public PlaneSettings PlaneSettings;
     public CameraSettings CameraSettings;
+    public Stat CloudCaptureRadius;
 }
 
 [Serializable]
 public struct PlaneSettings
 {
     public float MaxThrust;
+    public float MinThrust;
     public float ThrottleIncrement;
     public float RollModifier;
     public float Responsiveness;
