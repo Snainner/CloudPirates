@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CaptureClouds : MonoBehaviour
+public class CaptureClouds : Upgradable
 {
     [NaughtyAttributes.ReadOnly]
     public int Captured;
@@ -12,7 +12,7 @@ public class CaptureClouds : MonoBehaviour
     Dictionary<Vector3Int, CloudChunk> _chunks;
     float _voxelSize;
     [SerializeField]
-    float _captureRadius = 3f;
+    Stat _captureRadius;
 
     static int _shift = VoxelConstants.Shift;
     static int _mask = VoxelConstants.Mask;
@@ -23,17 +23,17 @@ public class CaptureClouds : MonoBehaviour
         _chunks = _cManager.Chunks;
         _voxelSize = _cManager.VoxelSize;
 
-        _player = GameManager.Instance.Player.transform;
+        //_player = GameManager.Instance.Player.Plane.transform;
     }
-    private void Update()
-    {
-        Capture();
-    }
+    //private void Update()
+    //{
+    //    Capture();
+    //}
 
-    void Capture()
+    public void Capture(Vector3 playerPosition)
     {
-        Vector3 p = _cManager.transform.InverseTransformPoint(_player.position) / _voxelSize;
-        float r = _captureRadius / _voxelSize;
+        Vector3 p = _cManager.transform.InverseTransformPoint(playerPosition) / _voxelSize;
+        float r = _captureRadius.Value / _voxelSize;
         float rSqr = r * r;
 
         Vector3Int min = Vector3Int.FloorToInt(p - Vector3.one * r);
@@ -59,5 +59,13 @@ public class CaptureClouds : MonoBehaviour
             EventManager.Broadcast(Events.CaptureEvent);     // once per frame
         }
     }
-
+    public void ApplySettings(Stat CaptureRadius)
+    {
+        _captureRadius = CaptureRadius;
+    }
+    protected override UpgradeData[] BuildUpgrades()
+    {
+        var captureRadius = UpgradeFactory.Create<CaptureClouds>("cloud_capture_radius", "Cloud Capture Radius", c => c._captureRadius.Bonus);
+        return new UpgradeData[] { captureRadius }; 
+    }
 }

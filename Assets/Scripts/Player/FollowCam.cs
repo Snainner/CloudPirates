@@ -38,23 +38,25 @@ public class FollowCam : MonoBehaviour
     float _fovMultiplier = 1.1f;
     [SerializeField]
     float _minShakeThrottle = 30f;
-    AdvancedPlaneController _player;
+    
     float _basePoV;
+    //AdvancedPlaneController _player;
+    
     private void Awake()
     {
         _cam = Camera.main;
         _basePoV = _cam.fieldOfView;
         _camTarget = transform;
-        _player = GetComponent<AdvancedPlaneController>();
+        //_player = GetComponent<AdvancedPlaneController>();
     }
 
     private void FixedUpdate()
     {
-        Follow(_player.transform.position, _player.transform, _player.CurrentThrottle);
+        //Follow(_player.transform.position, _player.transform, _player.CurrentThrottle);
     }
 
 
-    public void Follow(Vector3 player, Transform target, float currentThrottle)
+    public void Follow(Transform target, float currentThrottle)
     {
         if (currentThrottle <= _minShakeThrottle)
             _shakeEnabled = false;

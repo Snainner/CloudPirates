@@ -31,7 +31,7 @@ public class HUDManager : MonoBehaviour
     }
     private void OnEnable()
     {
-        _playerHealth = GameManager.Instance.Player.GetComponent<Health>();
+        _playerHealth = GameManager.Instance.Player.Health;
 
         _playerHealth.OnHealthChange += SetHealth;
 

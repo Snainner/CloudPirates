@@ -5,8 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    public GameObject Player { get; private set; }
-    public AdvancedPlaneController PlaneController { get; private set; }
+    public PlayerManager Player { get; private set; }
+   //public AdvancedPlaneController PlaneController { get; private set; }
     public ScoreManager ScoreManager{ get; private set; }
 
     [SerializeField]
@@ -27,10 +27,10 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        Player = GameObject.FindWithTag("Player");
+        Player = GameObject.FindWithTag("Player").GetComponent<PlayerManager>();
         if (Player == null)
             Debug.Log("<color=red><b>[GameManager]</b> Unable to find player by tag</color>");
-        PlaneController = Player.GetComponent<AdvancedPlaneController>();
+        //PlaneController = Player.Plane;
 
         ScoreManager = GetComponent<ScoreManager>();
         if(ScoreManager == null)

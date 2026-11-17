@@ -1,12 +1,10 @@
-
 using UnityEngine;
 
-
-
+[RequireComponent (typeof(AudioSource))]
 public class AdvancedPlaneController : Upgradable
 {
     public PlaneSettings Settings;
-    Health _health;
+    //Health _health;
     [SerializeField]
     Vector3 _centreOfMass;
     [SerializeField]
@@ -20,8 +18,6 @@ public class AdvancedPlaneController : Upgradable
     //[SerializeField]
     //float _lift = 135f;
 
-    [NaughtyAttributes.ReadOnly]
-    [SerializeField]
     float _throttle;
     float _roll;
     float _pitch;
@@ -36,24 +32,25 @@ public class AdvancedPlaneController : Upgradable
     public float CurrentThrottle { get { return _throttle; } }
     public float CurrentVelocity { get { return Rb.linearVelocity.magnitude; } }
     //public float SpeedPercentage { get { return } }
-    PlaneInput _input;
-    float _levelModifier = 1;
+    public PlaneInput Input { get; private set; }
     public Stat Thrust;
     public Stat Acceleration;
     public float MaxThrust => _baseMaxThrust;
 
-    GunItem _gun;
+    //GunItem _gun;
+    [SerializeField]
     EngineAudio _audio;
+    AudioSource _audioSource;
 
     private void Awake()
     {
-        _health = GetComponent<Health>();
+        //_health = GetComponent<Health>();
+        //_gun = GetComponent<GunItem>();
         Rb = GetComponent<Rigidbody>();
         Rb.centerOfMass = _centreOfMass;
+        _audioSource = GetComponent<AudioSource>();
         
-        _input = GetComponent<PlaneInput>();
-        _gun = GetComponent<GunItem>();
-        _audio = GetComponent<EngineAudio>();
+        Input = GetComponent<PlaneInput>();
 
         if (Settings.MaxThrust != 0)
             ApplySettings(Settings);
@@ -62,30 +59,38 @@ public class AdvancedPlaneController : Upgradable
     }
     private void OnEnable()
     {
-        _health.OnDeath += OnDeath;
+        //_health.OnDeath += OnDeath;
+        ToggleAudio(true);
     }
 
     private void OnDisable()
     {
-        _health.OnDeath -= OnDeath;
+        ToggleAudio(false);
+        //_health.OnDeath -= OnDeath;
 
     }
-    private void Update()
-    {
-        HandleInput();
-        _audio.UpdateEngineSound(CurrentThrottle, MaxThrust, 10f);
-    }
-    private void FixedUpdate()
-    {
-        ApplyInput();
+    //private void Update()
+    //{
+    //    HandleInput();
+    //    _audio.UpdateEngineSound(CurrentThrottle, MaxThrust, 10f);
+    //}
+    //private void FixedUpdate()
+    //{
+    //    ApplyInput();
         
-        //Lift force
-        //_rb.AddForce(_rb.transform.up * _rb.linearVelocity.magnitude * _lift);
-    }
-
-    void OnDeath()
+    //    //Lift force
+    //    //_rb.AddForce(_rb.transform.up * _rb.linearVelocity.magnitude * _lift);
+    //}
+    public void ToggleAudio(bool turnOn)
     {
-        UIManager.Instance.CreditCanvas.SetActive(true);
+        if(turnOn)
+            _audio.StartEngineSound(_audioSource);
+        else
+            _audio.StopEngineSound(_audioSource);
+    }
+    public void HandleAudio()
+    {
+        _audio.UpdateEngineSound(_audioSource, CurrentThrottle, 100, 0);
     }
     public void ApplySettings(PlaneSettings settings)
     {
@@ -101,13 +106,13 @@ public class AdvancedPlaneController : Upgradable
     }
     public void HandleInput()
     {
-        _gun.AutomaticFire(_input.IsShooting);
+        //_gun.AutomaticFire(_input.IsShooting);
 
-        _roll = _input.Roll; //A D
-        _pitch = _input.Pitch;//S W
-        _yaw = _input.Yaw;//Q E
+        _roll = Input.Roll; //A D
+        _pitch = Input.Pitch;//S W
+        _yaw = Input.Yaw;//Q E
 
-        _throttle += (_throttleIncrement * _input.Throttle * Time.deltaTime);
+        _throttle += (_throttleIncrement * Input.Throttle * Time.deltaTime);
         _throttle = Mathf.Clamp(_throttle, 10, 100);
     }
 
@@ -134,6 +139,6 @@ public class AdvancedPlaneController : Upgradable
     {
         var speed = UpgradeFactory.Create<AdvancedPlaneController>("max_thrust", "Max Speed", c => c.Thrust.Bonus);
         var accel = UpgradeFactory.Create<AdvancedPlaneController>("accel", "Acceleration", c => c.Acceleration.Bonus);
-        return new UpgradeData[] { speed };
+        return new UpgradeData[] { speed, accel };
     }
 }
