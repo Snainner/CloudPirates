@@ -3,11 +3,14 @@ using System;
 using UnityEngine;
 
 
-[RequireComponent(typeof(GunItem))]
+[RequireComponent(typeof(AudioSource))]
 public class Enemy : MonoBehaviour
 {
     GunItem _gun;
     Health _health;
+    [SerializeField]
+    EngineAudio _engineAudio;
+    AudioSource _audioSource;
     
     AdvancedPlaneController _player;
     BoxCollider _boxCollider;
@@ -59,6 +62,7 @@ public class Enemy : MonoBehaviour
     float _pitch;
 
     bool _isAttacking = false;
+    float _currentSpeed;
     static float NormalizeAngle(float angle) => angle > 180f ? angle - 360f : angle;
 
 
@@ -71,8 +75,9 @@ public class Enemy : MonoBehaviour
     private void Awake()
     {
         _shootCollider = GetComponentInChildren<ShootingSight>();
-        _gun = GetComponent<GunItem>();
+        _gun = GetComponentInChildren<GunItem>();
         _health = GetComponent<Health>();
+        _audioSource = GetComponent<AudioSource>();
     }
     private void Start()
     {
@@ -81,28 +86,32 @@ public class Enemy : MonoBehaviour
         _pitch = NormalizeAngle(euler.x);
 
 
-        _player = GameManager.Instance.PlaneController;
+        _player = GameManager.Instance.Player.Plane;
         _playerMask = LayerMask.GetMask("Player");
         _damageData = new DamageData(10, this);
     }
     private void FixedUpdate()
     {
         _gun.AutomaticFire(_shootCollider.IsAttacking);
-        BetterFlyTo(_player.transform.position);
+        _currentSpeed = Speed(_player.transform.position);
+        BetterFlyTo(_player.transform.position, _currentSpeed);
+        _engineAudio.UpdateEngineSound(_audioSource, _currentSpeed, _maxSpeed, _minSpeed);
     }
 
     private void OnEnable()
     {
         _shootCollider.OnTrigger += OnChildTrigger;
         _health.OnDeath += OnDeath;
+        _engineAudio.StartEngineSound(_audioSource);
     }
     private void OnDisable()
     {
         _shootCollider.OnTrigger -= OnChildTrigger;
         _health.OnDeath -= OnDeath;
+        _engineAudio.StopEngineSound(_audioSource);
     }
 
-    void BetterFlyTo(Vector3 target)
+    void BetterFlyTo(Vector3 target, float targetSpeed)
     {
         //Vector3 targetDelta = target - transform.position;
         //bool targetBehind = Vector3.Dot(transform.forward, targetDelta.normalized) < 0f;
@@ -143,7 +152,7 @@ public class Enemy : MonoBehaviour
         // Build rotation once from our own values
         transform.rotation = Quaternion.Euler(_pitch, _yaw, _currentBank);
 
-        transform.position += transform.forward * Speed(target) * Time.deltaTime;
+        transform.position += transform.forward * targetSpeed * Time.deltaTime;
     }
     void FlyTo(Vector3 target)
     {
