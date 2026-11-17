@@ -1,11 +1,11 @@
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 [RequireComponent (typeof(GunItem))]
 public class GunAudio : MonoBehaviour
 {
     GunItem _gun;
 
-    [SerializeField]
     AudioSource _source;
     [SerializeField]
     AudioClip[] _clips;

@@ -29,10 +29,10 @@ public class GunItem : Upgradable
     float _lastFired;
 
     [Header("Bullet")]
-    [SerializeField]
-    bool _addBulletSpread = true;
-    [SerializeField]
-    Vector3 _bulletSpreadVariance = new Vector3(0.1f, .1f, .1f);
+    //[SerializeField]
+    //bool _addBulletSpread = true;
+    //[SerializeField]
+    //Vector3 _bulletSpreadVariance = new Vector3(0.1f, .1f, .1f);
     [SerializeField]
     ParticleSystem _impactParticle;
     [SerializeField]
@@ -57,7 +57,7 @@ public class GunItem : Upgradable
     void Shoot()
     {
         Vector3 rayOrigin = _muzzleLoc.position;
-        Vector3 rayDir = transform.forward;
+        Vector3 rayDir = _muzzleLoc.transform.forward;
 
         bool rayHit = Physics.Raycast(rayOrigin, rayDir, out RaycastHit hit, RayDist, DamagableMask);
         Vector3 endPoint = rayOrigin + (rayDir * _maxTracerDist); //Tracer endpoint if it didn't hit anything
