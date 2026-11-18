@@ -1,6 +1,4 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class MainMenuUI : MonoBehaviour
@@ -32,6 +30,7 @@ public class MainMenuUI : MonoBehaviour
         Cursor.visible = false;
         _playButton.onClick.RemoveListener(PlayBtn);
         _creditsButton.onClick.RemoveListener(CreditBtn);
+
     }
 
     void PlayBtn()

@@ -1,4 +1,3 @@
-using PrimeTween;
 using UnityEngine;
 
 public class FollowCam : MonoBehaviour

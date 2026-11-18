@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class UpgradeConstants
 {
     public const float MinUpgradePerc = 1f;
